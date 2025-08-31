@@ -1,64 +1,58 @@
 # 📊 UPI Transaction Data Analysis – Power BI Dashboard
 
-This project presents an interactive Power BI dashboard that analyzes UPI transaction data with multiple visuals and slicers for detailed insights.
+This project presents an **interactive Power BI dashboard** that analyzes **UPI transaction data** with multiple visuals and slicers for detailed insights.
 
-🚀 Project Overview
+## 🚀 Project Overview
 
-The dashboard provides insights into monthly transactions, remaining balances, city-wise amounts, and demographic distributions using a combination of charts, slicers, and conditional formatting.
+The dashboard provides insights into **monthly transactions, remaining balances, city-wise amounts, and demographic distributions** using a combination of charts, slicers, and conditional formatting.
 
 It includes:
 
-Column Chart: Transactions by month (2024).
+* **Column Chart**: Transactions by month (2024).
+* **Line Chart**: Trend of transactions across months.
+* **Matrix Visual**: City-wise transactions with currency and balance details.
+* **Interactive Slicers**: Filter data by bank, city, payment method, merchant, device, gender, transaction type, etc.
+* **Bookmarks**: Switch between views (Transactions / Remaining Balance).
 
-Line Chart: Trend of transactions across months.
+## ⚙️ Steps Performed
 
-Matrix Visual: City-wise transactions with currency and balance details.
+1. **Loading Data into Power BI Desktop**
+2. **Data Profiling** for quality checks.
+3. **Adding Page & Age Group Columns** for categorization.
+4. **Designing and Formatting Slicers** (size, position, colors).
+5. **Adding Visuals**:
 
-Interactive Slicers: Filter data by bank, city, payment method, merchant, device, gender, transaction type, etc.
+   * Column Chart (Monthly Transactions)
+   * Line Chart (Monthly Trends)
+   * Matrix Visual (City & Currency Analysis)
+6. **Syncing Slicers** across pages for consistent filtering.
+7. **Applying Conditional Formatting** in the matrix for better readability.
+8. **Adding Bookmarks** to toggle between **Transaction Amount** and **Remaining Balance** views.
 
-Bookmarks: Switch between views (Transactions / Remaining Balance).
+## 📷 Dashboard Snapshots
 
-⚙️ Steps Performed
+### Column Chart – Transactions by Month
 
-Loading Data into Power BI Desktop
+![Column Chart](UPI_ColumnChart.png)
 
-Data Profiling for quality checks.
+### Line Chart – Monthly Transaction Trend
 
-Adding Page & Age Group Columns for categorization.
+![Line Chart](UPI_LineChart.png)
 
-Designing and Formatting Slicers (size, position, colors).
+### Matrix Chart – City-wise Transactions
 
-Adding Visuals:
+![Matrix Chart](UPI_MatrixChart.png)
 
-Column Chart (Monthly Transactions)
+## 🛠️ Tools Used
 
-Line Chart (Monthly Trends)
+* **Power BI Desktop** – for data modeling & visualization.
 
-Matrix Visual (City & Currency Analysis)
+## 📌 Key Learnings
 
-Syncing Slicers across pages for consistent filtering.
+* Creating and formatting **interactive slicers**.
+* Building **multi-visual dashboards** with consistent filtering.
+* Using **conditional formatting** for better data interpretation.
+* Implementing **bookmarks** to enhance user experience.
 
-Applying Conditional Formatting in the matrix for better readability.
 
-Adding Bookmarks to toggle between Transaction Amount and Remaining Balance views.
 
-📷 Dashboard Snapshots
-Column Chart – Transactions by Month
-
-Line Chart – Monthly Transaction Trend
-
-Matrix Chart – City-wise Transactions
-
-🛠️ Tools Used
-
-Power BI Desktop – for data modeling & visualization.
-
-📌 Key Learnings
-
-Creating and formatting interactive slicers.
-
-Building multi-visual dashboards with consistent filtering.
-
-Using conditional formatting for better data interpretation.
-
-Implementing bookmarks to enhance user experience.
